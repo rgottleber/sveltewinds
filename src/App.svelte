@@ -4,6 +4,8 @@
   export let name: string;
 </script>
 
+<Tailwindcss />
+
 <main>
   <h1>Hello {name}!</h1>
   <p>
@@ -33,6 +35,7 @@
     }
   }
   h1 {
-    @apply bg-black text-white;
+    @apply bg-black;
+    @apply text-white;
   }
 </style>
